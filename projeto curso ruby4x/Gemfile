@@ -1,0 +1,4 @@
+source 'https://rubygems.org' #irá buscar as gems neste repositório
+
+gem 'faker'
+gem 'cpf_utils'
