@@ -1,0 +1,5 @@
+#CURSO RUBY ON RAILS#
+Primeiro passo - Criar o arquivo Gemfile para instalar as gems de um projeto
+>No arquivo Gemfile criado, mostrar onde deve buscar o repositório, no caso digitar:
+source 'https://rubygems.org'
+>> No arquivo Gemfile mostrar quais gems devem ser instaladas, depois ir no terminal e digitar bundle install no repositório onde está o Gemfile
