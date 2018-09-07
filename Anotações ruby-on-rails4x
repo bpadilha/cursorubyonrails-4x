@@ -3,3 +3,34 @@ Primeiro passo - Criar o arquivo Gemfile para instalar as gems de um projeto
 >No arquivo Gemfile criado, mostrar onde deve buscar o repositório, no caso digitar:
 source 'https://rubygems.org'
 >> No arquivo Gemfile mostrar quais gems devem ser instaladas, depois ir no terminal e digitar bundle install no repositório onde está o Gemfile
+
+#AULA 008 - Instalando um novo projeto 
+>> Para criar um projeto de Ruby on rails deve digitar no terminal
+>> rails new /nome do projeto/ , assim ja cria a pasta do projeto na raiz de onde esta no terminal
+>> Para instalar a versão do rails para o projeto que deseja deve digitar
+
+>> rails _VERSAO_ nomeprojeto
+>> ex : rails _4.0.0_ teste exemplo
+
+>> criar um projeto para um banco de dados específico
+>> rails new meuapp --database=mysql (EXEMPLO TA???)
+>> por padrão vem configurado o sqlite3
+>> Da para ver em qual pasta está configurado a database
+>> config/database.ymi
+
+>>> Para ver as opções do rails é só digitar rails no terminal
+
+>> Para não instalar o bundleinstall no final da criação do novo programa rails
+>> Digitar -B no final
+>> ex : rails new teste -B 
+>> Assim se estiver sem internet, não vai verificar online as gems e buscar instalação das mesmas
+
+>> Para renomear um projeto rails deve renomear 2 arquivos
+>>> config/application.rb  >> na frente do Módulo
+>>> config/initializers/session_store.rb 
+>>> Também é muito válido usar a gem Rename
+
+na Gemfile >> gem 'rename'
+
+rails g rename:app_to Novo_nome
+
