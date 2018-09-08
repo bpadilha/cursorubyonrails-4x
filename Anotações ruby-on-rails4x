@@ -10,7 +10,7 @@ source 'https://rubygems.org'
 >> Para instalar a versão do rails para o projeto que deseja deve digitar
 
 >> rails _VERSAO_ nomeprojeto
->> ex : rails _4.0.0_ teste exemplo
+>> ex : rails _4.0.0_ new teste exemplo
 
 >> criar um projeto para um banco de dados específico
 >> rails new meuapp --database=mysql (EXEMPLO TA???)
@@ -34,3 +34,17 @@ na Gemfile >> gem 'rename'
 
 rails g rename:app_to Novo_nome
 
+#AULA 009
+>> estudo sobre as pastas dos projetos
+
+#AULA 010 - Sobre Ruby, IRB e PRY
+>> Para executar um arquivo ruby é só digitar
+>> ruby meuarquivo.rb
+>>>>> Para criar um arquivo ruby, só digitar touch meurquivo.rb
+
+>> IRB - é um modo bom para testes de aplicações ruby
+>> só digitar IRB no terminal que abre.
+
+>> Pry é um repl, onde você escreve e interpreta, muito parecido com o IRB
+>> É uma alternativa mais poderosa do irb.
+>>> Pry e o irb são mt úteis para testes.
