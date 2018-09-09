@@ -48,3 +48,21 @@ rails g rename:app_to Novo_nome
 >> Pry é um repl, onde você escreve e interpreta, muito parecido com o IRB
 >> É uma alternativa mais poderosa do irb.
 >>> Pry e o irb são mt úteis para testes.
+
+
+#AULA 011 - Orientação a objetos em uma AULA
+>> Classes são as formas de se fazer um objeto, como se fosse a planta de uma casa
+>> Objeto é a classe pronta, como uma casa gerada por uma planta, onde eu posso fazer diferentes objetos de uma mesma classe
+>> Atributos, são as definições de um objeto, como exemplo um carro: O tipo de roda, tipo de motor, cor executar
+>> Métodos é o que este objeto faz, seria equivalente a função que ele executa.
+>>> NO RUBY TUDO É OBJETO!
+
+>> Para eu saber qual é a classe de um objeto
+>> a = 1
+>> a.class 
+
+>> para saber a object id de um objeto
+>> a = 1
+>> a.object_id
+>> meio que mostra a id deste objeto
+>> isto vindo depois do ., são métodos disponiveis no ruby.
