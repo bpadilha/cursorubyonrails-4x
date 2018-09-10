@@ -66,3 +66,31 @@ rails g rename:app_to Novo_nome
 >> a.object_id
 >> meio que mostra a id deste objeto
 >> isto vindo depois do ., são métodos disponiveis no ruby.
+
+#AULA 012 - Entrada pardão STDIN
+
+>> Gets é ler a string que foi digitado, igual input no python
+>>\n e chomp
+>>> \n ele pula a linha
+
+>>> NOTA: Quando digita algo e aperta enter, ele digita automaticamente um \n
+>>> por isso é utilizado o método chomp
+>>> usar gets.chomp
+
+>> para tranformar um tipo em outro usar os métodos
+>>> .to_f para transformar em float
+>>> .to_i para transformar em integer
+>>> .to_s para trasnfromar em string
+
+>>estruturas condicionais, if, else, case na aula 012.1.rb
+
+>> estruturas condicionais - condicional ternário -
+>>> Parecido com o excel
+>>> (condição) ? (resultado verdadeiro) : (resultado falso)
+>>> ? significa então
+
+>>repetição while, until, for e each
+
+
+
+
