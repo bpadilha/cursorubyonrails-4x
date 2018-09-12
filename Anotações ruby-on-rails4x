@@ -91,6 +91,41 @@ rails g rename:app_to Novo_nome
 
 >>repetição while, until, for e each
 
+#AULA 013 - VETOR / ARRAY
+
+>> para declarar um vetor, basta ele estar entre colchetes
+
+v = [15,62,73,48]
+
+>> puts v.inspec irá mostrar o ARRAY
+>> Se pedir apenas puts v, irá mostrar os elementos sequencialmente.
+
+>> puts v[2] imprime o numero no indice 2
+>> a = Array.new #cria um array
+    a.push (36) #adiciona itens no array
+    a.inspect
+
+    a.push (etc) adiciona o que você quiser no array.
+
+>>> ARGV, eu escrevo os parametros que eu quero direto no terminal
+exemplo ruby aula013.1.rb Bruno Padilha
+imprime : ["bruno", "padilha"]
+
+ARGV da para fazer contas e tudo mais, mas tem que transformar a string em inteiro.
+
+>>> Hashes IMPORTANTE
+
+Hashes é como o dicionario em python, sendo declarado a chave e o valor para equivalente
+h = {"a" => 123, "b"=> 324}
+
+Para mostrar o a puts ["a"]
+
+>>> para adicionar mais um elemento no hash, usar o .merge
+
+h.merge!({"c" => 7319})
+
+>>>>>>>>DICA<<<<<< geralmente quando se usa o ponto de exclamação em um método, é pq vai mudar algo
+o .merge! vai mudar o hash
 
 
 
