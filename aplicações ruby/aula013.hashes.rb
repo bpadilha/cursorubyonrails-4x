@@ -6,4 +6,4 @@ puts h
 puts h["a"]
 puts h["b"]
 
-h.merge! ({"c" => 8123})
+h.merge! ({"c" => 8123}) #adiciona mais um elemento no hashe

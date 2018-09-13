@@ -128,4 +128,38 @@ h.merge!({"c" => 7319})
 o .merge! vai mudar o hash
 
 
+#AULA 014 - Brincando com strings
 
+>>Para interpolar strings usar : #{} 
+Ex: nomes = %w(Bruno Padilha Rangel)
+    x = "Olá, "
+    nomes.each do |nome| #pega cada nome na variavel nomes e imprime
+        puts "#{x}#{nome} "
+    end
+
+Para criar vetor com nomes usar o %w
+>>> exemplo : y = %w (Bruno Padilha Rangel)
+saida : ["Bruno","Padilha","Rangel"]
+
+
+>>> Concatenando strings, usando + ou <<
+
+Ex : 
+puts "Ruby " + "on " + "Rails " + nomes[0]
+puts "Ruby " << "on " << "Rails " << nomes[0]
+
+>>> Para substituir string, usar
+
+usar o .gsub (Substituição global)
+
+texto ="Ruby " << "on " << "Rails " << nomes[0]
+puts texto.gsub("Bruno", "O melhor curso") #SUBSTITUI APENAS TEMPORARIAMENTE
+
+>>>DICA<<< Para substituir integralmente usar o ! depois do gsub.
+
+puts texto.gsub!("Bruno", "O melhor curso") 
+
+>>>> Strings x Simbols
+    "hello" x :hello
+
+>> Simbols é uma string imutável
