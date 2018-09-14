@@ -163,3 +163,11 @@ puts texto.gsub!("Bruno", "O melhor curso")
     "hello" x :hello
 
 >> Simbols é uma string imutável
+
+>> Ela geralmente serve para identificar alguma coisa
+>>é muito usado como um identificador em um hash pois é uma chave que não pode mudar
+
+h = {:a => 123, :b => "Bruno"} que é equivalente a h = {a: 123, b: "Bruno"}
+ao invez de
+h = {"a" => 123, "b" => "Bruno"}
+

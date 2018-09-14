@@ -21,3 +21,5 @@ puts txt.object_id
 txt = txt << "Rangel" #Assim aparece no mesmo object ID, é substituido no mesmo objeto,ou seja, é mais otimizado
 puts txt.object_id
 
+h = {:a => 123, :b => "Bruno"}
+h = {a: 123, b: "Bruno"}
