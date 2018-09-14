@@ -171,3 +171,32 @@ h = {:a => 123, :b => "Bruno"} que é equivalente a h = {a: 123, b: "Bruno"}
 ao invez de
 h = {"a" => 123, "b" => "Bruno"}
 
+### AULA 015 ### - Métodos 
+
+>> Método é uma das ferramentas mais poderosas do ruby
+
+>>> Bons métodos para array
+
+a = [ 1 , 2, 3, 4]
+a.count >> Irá contar quantos elementos tem no array, é igual o .size e .length
+
+a.push (5) >> Irá adicionar um elemento no final do array 
+a.unshift (0) >> irá adicionar um elemento no começo do array
+
+a.pop >> remove o ultimo elemento
+a.shift >> remove o primeiro elemento
+
+Para criar um método é igual ao python, só usar o def
+
+def meu_menu (valor)
+
+    puts "#{valor*19}"
+    puts "        MENU       "
+    puts "#{valor*19}"
+
+end
+
+val = "x"
+
+meu_menu (val)
+
