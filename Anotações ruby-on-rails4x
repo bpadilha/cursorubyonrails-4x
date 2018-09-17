@@ -200,3 +200,32 @@ val = "x"
 
 meu_menu (val)
 
+#AULA 016
+
+Constante, é colocar a variável em letra maiúscula de uma variável
+Uma constante usa menos recurso operacional do sistema.
+
+>>> Transformando o texto em vetor
+>>> é só usar o .split(",")
+>> assim como o %w(BRUNO PADILHA RANGEL)
+
+>>> e para juntar de volta este array como um texto normal, é só utilizar o .join
+>>> talvez .join(" ") #separado por espaço.
+
+>>> O EVAL é uma boa maneira de interpretar no ruby, onde pode digitar numeros como string e ele interpreta a string e faz a ação
+"9+9" vai dar igual a 18.
+
+>>> Método Instance of
+Volta se é true ou false
+a = 123
+puts a.instance_of?(Integer) #true
+puts a.instance_of?(Array) #false
+
+>>> Range e intervalos
+
+(1..10)each do |i|
+    puts i
+end
+#mostra os 10 elementos
+Se colocar ... o ultimo elemento não entra 
+
