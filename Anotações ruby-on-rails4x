@@ -229,3 +229,16 @@ end
 #mostra os 10 elementos
 Se colocar ... o ultimo elemento não entra 
 
+
+##AULA 017 - CLASSES E OBJETOS 
+
+##Aula 018 - Classes e Heranças
+
+Se eu tenho uma classe pessoa e com @nome e @endereço
+Nas heranas também usam esse nome e endereço.
+
+class PessoaFísica < Pessoa #pessoa física herda de pessoa
+    attr_accessor :cpf
+    attr_accessor :data_nascimento
+end
+
